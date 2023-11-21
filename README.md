@@ -182,3 +182,38 @@ O (nome do projeto) contém três projetos diferentes:
 2. `nome da pasta Vue`: Um projeto front-end em Vue.js.
 3. `nome da pasta Django`: Um projeto back-end em Django REST framework (DRF) com PDM.
 
+# Padronização de Commits
+
+Este projeto segue os devidos padrões de Commit:
+
+```bash
+    <tipo>(<escopo>): <mensagem>
+```
+
+- Onde:
+
+    - **tipo**: descreve a natureza do commit (por exemplo, feat para uma nova funcionalidade, fix para correção de bugs, docs para documentação, etc.).
+    - **escopo**: opcional, refere-se à parte do projeto afetada pela mudança.
+    - **mensagem**: é uma descrição concisa e clara da alteração.
+
+- Alguns exemplos de padronização dos commits:
+
+    **Adicionando uma nova funcionalidade:**
+
+```bash
+    git commit -m "feat(auth): adiciona autenticação de usuário"
+```
+**Corrigindo um bug:**
+
+```bash
+    git commit -m "fix(nav): corrige problema de navegação no menu"
+```
+   **Atualizando a documentação:**
+
+```bash
+    git commit -m "docs(readme): atualiza instruções de instalação"
+```
+   **Refatorando código:**
+```bash
+    git commit -m "refactor(utils): otimiza função de manipulação de strings"
+```
