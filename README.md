@@ -5,14 +5,16 @@
 (descrição breve do projeto)
 
 Equipe:
+
 - [Aluno1](github.com/aluno1)
 - [Aluno2](github.com/aluno2)
 - [Aluno3](github.com/aluno3)
 
 Links do projeto:
--   [Documentação (esse documento)](github.com/)
--   Backend: [Repositório](github.com/) e [Publicação](https://)
--   Frontend: [Repositório](github.com/) e [Publicação](https://)
+
+- [Documentação (esse documento)](github.com/)
+- Backend: [Repositório](github.com/) e [Publicação](https://)
+- Frontend: [Repositório](github.com/) e [Publicação](https://)
 
 # Desenvolvimento do Projeto
 
@@ -28,16 +30,16 @@ abordando o funcionamento da empresa como um todo, não apenas os “problemas�
 Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
 atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
 
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
+- Pesquise sobre empresas do ramo escolhido
+  para entender como funcionam;
+- Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
+- Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
 
 **BASE DE COMO MONTAR O TEXTO**
 
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+- **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
+- **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
+- **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
 
 # Descrição da Proposta
 
@@ -68,7 +70,7 @@ As Regras de Negócio são orientações e restrições que ajudam a regular as 
 **Exemplos de regras de negócio com formatação**
 
 Regras de negocio realizadas por [Aluno 1]; [Aluno 2]...
-feito em dd/mm/nnnn às 16:34 horas 
+feito em dd/mm/nnnn às 16:34 horas
 
 **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
 
@@ -78,9 +80,9 @@ feito em dd/mm/nnnn às 16:34 horas
 
 **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
 
-# Requisitos funcionais 
+# Requisitos funcionais
 
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. 
+Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário.
 
 Os requisitos funcionais são compostos de duas partes: **função** e **comportamento**.
 
@@ -116,9 +118,9 @@ Um requisito funcional deve ser estruturado da seguinte forma:
 
 - **Número do requisito funcional:** RF001; RF002
 - **Nome do requisito funcional:** descrição do requisito.
-  
+
   - **Dados necessários:** dado 1, dado 2, dado 3.
-  
+
   - **Usuários:** todos os níveis de usuário.
 
 # Requisitos não funcionais
@@ -152,7 +154,6 @@ R.N.F. 01 - Nome do requisito não funcional: descrição do requisito.
 
 R.N.F. 02 - Nome do requisito não funcional: descrição do requisito.
 
-
 # Diagrama de Caso de Uso
 
 O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comportamento de um sistema a partir da perspectiva do usuário. Ele é usado para capturar os requisitos funcionais de um sistema.
@@ -166,15 +167,14 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 - Descrevem como os usuários interagem com o sistema (as funcionalidades do sistema)
 - Facilitam a organização dos requisitos de um sistema.
 - Dão uma visão externa do sistema
--O conjunto de casos de uso deve ser capaz de comunicar a funcionalidade e o comportamento do sistema para o cliente.
+  -O conjunto de casos de uso deve ser capaz de comunicar a funcionalidade e o comportamento do sistema para o cliente.
 - Descrevem o que o sistema faz, mas não especificam como isso deve ser feito.
 
-
-# Diagrama de Classe 
+# Diagrama de Classe
 
 <img src="img/Protótipo-Modelagem-Hackathon.png">
 
-#  Sobre o Projetos
+# Sobre o Projetos
 
 O (nome do projeto) contém três projetos diferentes:
 
@@ -192,28 +192,52 @@ Este projeto segue os devidos padrões de Commit:
 
 - Onde:
 
-    - **tipo**: descreve a natureza do commit (por exemplo, feat para uma nova funcionalidade, fix para correção de bugs, docs para documentação, etc.).
-    - **escopo**: opcional, refere-se à parte do projeto afetada pela mudança.
-    - **mensagem**: é uma descrição concisa e clara da alteração.
+  - **tipo**: descreve a natureza do commit (por exemplo, feat para uma nova funcionalidade, fix para correção de bugs, docs para documentação, etc.).
+  - **escopo**: opcional, refere-se à parte do projeto afetada pela mudança.
+  - **mensagem**: é uma descrição concisa e clara da alteração.
 
 - Alguns exemplos de padronização dos commits:
 
-    **Adicionando uma nova funcionalidade:**
+  **Adicionando uma nova funcionalidade:**
 
 ```bash
     git commit -m "feat(auth): adiciona autenticação de usuário"
 ```
+
 **Corrigindo um bug:**
 
 ```bash
     git commit -m "fix(nav): corrige problema de navegação no menu"
 ```
-   **Atualizando a documentação:**
+
+**Atualizando a documentação:**
 
 ```bash
     git commit -m "docs(readme): atualiza instruções de instalação"
 ```
-   **Refatorando código:**
+
+**Refatorando código:**
+
 ```bash
     git commit -m "refactor(utils): otimiza função de manipulação de strings"
 ```
+
+# Comandos Uteis e Plugins
+
+**Comandos Vue:**
+
+- Tutoriais: [Vue Aula eduardo](https://eduardo-da-silva.github.io/aula-desenvolvimento-web/intro/criar-aplicacao-vuejs.html)
+- Criar o projeto: "npm init vue@latest ."
+  -installar dependencias:"npm install"
+  -Rodar o Projeto:"npm run dev"
+
+**Comandos React:**
+
+- Tutoriais: [React Aula eduardo](https://eduardo-da-silva.github.io/aula-desenvolvimento-mobile/)
+- Criar o projeto: "npx create-expo-app Hackathon ."
+  -installar dependencias:"npm install"
+  -Rodar o Projeto:"npm run start"
+
+**Comandos Django:**
+
+**Plugins:**
