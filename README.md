@@ -277,6 +277,12 @@ Este projeto segue os devidos padrões de Commit:
     git commit -m "refactor(utils): otimiza função de manipulação de strings"
 ```
 
+**Removendo Arquivo:**
+
+```bash
+    git commit -m "delete(src): deletando arquivos"
+```
+
 # Comandos Úteis e Plugins
 
 **Comandos Vue:**
