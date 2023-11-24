@@ -252,6 +252,7 @@ O (nome do projeto) contém três projetos diferentes:
 1. `frontend-mobile-hackathon`: Um projeto front-end em React Native.
 2. `frontend-web-hackathon`: Um projeto front-end em Vue.js.
 3. `back-hackathon`: Um projeto back-end em Django REST framework (DRF) com PDM.
+4. `documentacao-hackathon`: Uma documentação para .
 
 # Padronização de Commits
 
