@@ -134,49 +134,58 @@ Os Requisitos Não Funcionais explicam as limitações e restrições do sistema
 
 - Interface de Usuário
 - Segurança
-- Atuação
-- Manutenção
+-  Atuação
+- ManutençãoRequisitos não funcionais:
 
-Requisitos não funcionais:
+Segurança:
 
-    Segurança:
-        R.N.F. 1 Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
-        R.N.F. 2 Implementar autenticação e autorização robustas, com monitoramento constante.
+R.N.F. 1 Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
+R.N.F. 2 Implementar autenticação e autorização robustas, com monitoramento constante.
 
-    Atuação:
-        R.N.F. 3 Implementar estratégias de cache para redução da carga no servidor.
+Atuação:
 
-    Escalabilidade:
-        R.N.F. 4 Capacidade de suportar aumento de 50% no número de usuários simultâneos.
+R.N.F. 3 Implementar estratégias de cache para redução da carga no servidor.
 
-    Disponibilidade:
-        R.N.F. 5 Implementar monitoramento proativo para rápida resolução de problemas.
+Escalabilidade:
 
-    Manutenção:
-        R.N.F. 6 Manter documentação do código atualizada para futuras atualizações.
+R.N.F. 4 Capacidade de suportar aumento de 50% no número de usuários simultâneos.
 
-    Portabilidade:
-        R.N.F. 7 Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
-        R.N.F. 8 Interface responsiva para diferentes tamanhos de tela.
+Disponibilidade:
 
-    Usabilidade:
-        R.N.F. 9 Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
-        R.N.F. 10 Conduzir testes de usabilidade com usuários reais.
+R.N.F. 5 Implementar monitoramento proativo para rápida resolução de problemas.
 
-    Compatibilidade:
-        R.N.F. 11 Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
-        R.N.F. 12 Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
+Manutenção:
 
-    Conformidade:
-        R.N.F. 13 Implementar Swagger para documentação eficiente da API.
+R.N.F. 6 Manter documentação do código atualizada para futuras atualizações.
 
-    Integração:
-        R.N.F. 14 Utilizar Axios para requisições HTTP assíncronas no frontend web.
-        R.N.F. 15 Integrar frontend mobile em React Native eficazmente com o backend Django.
-        R.N.F. 16 Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
+Portabilidade:
 
-    Hospedagem:
-        R.N.F. 17 Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
+R.N.F. 7 Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
+R.N.F. 8 Interface responsiva para diferentes tamanhos de tela.
+
+Usabilidade:
+
+R.N.F. 9 Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
+R.N.F. 10 Conduzir testes de usabilidade com usuários reais.
+
+Compatibilidade:
+
+R.N.F. 11 Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
+R.N.F. 12 Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
+
+Conformidade:
+
+R.N.F. 13 Implementar Swagger para documentação eficiente da API.
+
+Integração:
+
+R.N.F. 14 Utilizar Axios para requisições HTTP assíncronas no frontend web.
+R.N.F. 15 Integrar frontend mobile em React Native eficazmente com o backend Django.
+R.N.F. 16 Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
+
+Hospedagem:
+
+R.N.F. 17 Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
 
 
 # Diagrama de Caso de Uso
