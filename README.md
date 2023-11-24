@@ -226,21 +226,21 @@ Este projeto segue os devidos padrões de Commit:
     git commit -m "refactor(utils): otimiza função de manipulação de strings"
 ```
 
-# Comandos Uteis e Plugins
+# Comandos Úteis e Plugins
 
 **Comandos Vue:**
 
 - Tutoriais: [Vue Aula eduardo](https://eduardo-da-silva.github.io/aula-desenvolvimento-web/intro/criar-aplicacao-vuejs.html)
 - Criar o projeto: "npm init vue@latest ."
-  -installar dependencias:"npm install"
-  -Rodar o Projeto:"npm run dev"
+- Instalar dependências:"npm install"
+-Rodar o Projeto:"npm run dev"
 
 **Comandos React:**
 
 - Tutoriais: [React Aula eduardo](https://eduardo-da-silva.github.io/aula-desenvolvimento-mobile/)
 - Criar o projeto: "npx create-expo-app Hackathon ."
-  -installar dependencias:"npm install"
-  -Rodar o Projeto:"npm run start"
+- Instalar dependencias:"npm install"
+- Rodar o Projeto:"npm run start"
 
 **Comandos Django:**
 
