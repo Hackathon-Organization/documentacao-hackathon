@@ -196,7 +196,7 @@ Este projeto segue os devidos padrões de Commit:
 
 - Onde:
 
-  - **tipo**: descreve a natureza do commit (por exemplo, feat para uma nova funcionalidade, fix para correção de bugs, docs para documentação e create para uma criação de projeto.).
+  - **tipo**: descreve a natureza do commit (por exemplo, feat para uma nova funcionalidade, fix para correção de bugs, docs para documentação e create para criação de projeto).
   - **escopo**: opcional, refere-se à parte do projeto afetada pela mudança.
   - **mensagem**: é uma descrição concisa e clara da alteração.
 
