@@ -62,28 +62,44 @@ atualidade, ou seja, antes de seu novo software**, usando como base a situação
 
 As Regras de Negócio são orientações e restrições que ajudam a regular as operações de uma empresa. Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir COMO as operações devem ser realizadas e gerenciadas, POR QUEM, QUANDO, ONDE e POR QUÊ.
 
-**Como escrever regras de negócio?**
+  - Cadastro de Avaliadores:
+        **R.N. 01:** Somente usuários cadastrados como avaliadores podem acessar o sistema de avaliação.
+        **R.N. 02:** O cadastro de avaliadores deve incluir informações como nome, e-mail, especialidade e senha.
 
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
+  - Atribuição de Grupos:
+        **R.N. 03:** Cada avaliador pode ser designado para avaliar um ou mais grupos de hackathon.
+        **R.N. 04:** Deve permitir a atribuição do mesmo grupo a mais de um avaliador.
 
-**Exemplos de regras de negócio com formatação**
+  - Avaliação de Projetos:
+        **R.N. 05:** Cada avaliador deve fornecer notas individuais para os critérios de avaliação predefinidos.
+        **R.N. 06:** As notas atribuídas pelos avaliadores devem ser numéricas e estar dentro de uma faixa específica, por exemplo, de 1 a 10.
+        **R.N. 07:** Cada grupo deve receber avaliação de pelo menos três avaliadores.
 
-Regras de negocio realizadas por [Aluno 1]; [Aluno 2]...
-feito em dd/mm/nnnn às 16:34 horas
+  - Classificação dos Grupos:
+        **R.N. 08:** A classificação dos grupos deve ser baseada na média ponderada das notas recebidas.
+        **R.N. 09:** Em caso de empate na média das notas, o grupo com maior pontuação no critério de originalidade deve ser classificado mais alto.
+        **R.N. 10:** A classificação final deve ser exibida de forma clara e acessível para todos os participantes.
 
-**RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
+  - Limite de Membros por Grupo:
+        **R.N. 11:** Cada grupo pode ter no máximo 5 membros.
+        **R.N. 12:** Não é permitido adicionar ou remover membros de um grupo após o início do hackathon.
 
-**RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
+  - Visualização de Resultados:
+        **R.N. 13:** Os resultados finais, incluindo classificações e notas, devem ser disponibilizados de forma transparente após a conclusão do processo de avaliação.
+        **R.N. 14:** Os participantes devem ter acesso apenas aos resultados gerais, sem visualização das notas individuais atribuídas pelos avaliadores.
 
-**RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
+  - Prazos de Avaliação:
+        **R.N. 15:** Deve ser estabelecido um prazo claro para que os avaliadores concluam suas avaliações.
+        **R.N. 16:** Caso um avaliador não conclua suas avaliações dentro do prazo estipulado, medidas devem ser tomadas para garantir a pontualidade do processo.
 
-**RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
+  - Feedback aos Grupos:
+        **R.N. 17:** Após a divulgação dos resultados, os grupos devem ter acesso a feedback construtivo sobre seus projetos, destacando pontos fortes e áreas de melhoria.
+
+  - Backup de Dados:
+        **R.N. 18:** Realizar backups regulares das notas e classificações atribuídas pelos avaliadores para evitar perda de dados críticos.
+
+ - Reavaliação em Caso de Contestação:
+        **R.N. 19:** Caso um grupo conteste sua avaliação, deve ser estabelecido um procedimento para reavaliação por parte de um comitê independente.
 
 # Requisitos funcionais
 
@@ -139,53 +155,53 @@ Os Requisitos Não Funcionais explicam as limitações e restrições do sistema
 
 - Segurança:
 
-**R.N.F. 1** Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
-**R.N.F. 2** Implementar autenticação e autorização robustas, com monitoramento constante.
+**R.N.F. 01:** Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
+**R.N.F. 02:** Implementar autenticação e autorização robustas, com monitoramento constante.
 
 - Atuação:
 
-**R.N.F. 3** Implementar estratégias de cache para redução da carga no servidor.
+**R.N.F. 03:** Implementar estratégias de cache para redução da carga no servidor.
 
 - Escalabilidade:
 
-**R.N.F. 4** Capacidade de suportar aumento de 50% no número de usuários simultâneos.
+**R.N.F. 04:** Capacidade de suportar aumento de 50% no número de usuários simultâneos.
 
 - Disponibilidade:
 
-**R.N.F. 5** Implementar monitoramento proativo para rápida resolução de problemas.
+**R.N.F. 05:** Implementar monitoramento proativo para rápida resolução de problemas.
 
 - Manutenção:
 
-**R.N.F. 6** Manter documentação do código atualizada para futuras atualizações.
+**R.N.F. 06:** Manter documentação do código atualizada para futuras atualizações.
 
 - Portabilidade:
 
-**R.N.F. 7** Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
-**R.N.F. 8** Interface responsiva para diferentes tamanhos de tela.
+**R.N.F. 07:** Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
+**R.N.F. 08:** Interface responsiva para diferentes tamanhos de tela.
 
 - Usabilidade:
 
-**R.N.F. 9** Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
-**R.N.F. 10** Conduzir testes de usabilidade com usuários reais.
+**R.N.F. 09:** Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
+**R.N.F. 10:** Conduzir testes de usabilidade com usuários reais.
 
 - Compatibilidade:
 
-**R.N.F. 11** Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
-**R.N.F. 12** Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
+**R.N.F. 11:** Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
+**R.N.F. 12:** Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
 
 -Conformidade:
 
-**R.N.F. 13** Implementar Swagger para documentação eficiente da API.
+**R.N.F. 13:** Implementar Swagger para documentação eficiente da API.
 
 -Integração:
 
-**R.N.F. 14** Utilizar Axios para requisições HTTP assíncronas no frontend web.
-**R.N.F. 15** Integrar frontend mobile em React Native eficazmente com o backend Django.
-**R.N.F. 16** Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
+**R.N.F. 14:** Utilizar Axios para requisições HTTP assíncronas no frontend web.
+**R.N.F. 15:** Integrar frontend mobile em React Native eficazmente com o backend Django.
+**R.N.F. 16:** Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
 
 -Hospedagem:
 
-**R.N.F. 17** Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
+**R.N.F. 17:** Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
 
 # Diagrama de Caso de Uso
 
