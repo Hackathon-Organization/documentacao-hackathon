@@ -243,7 +243,7 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 
 # Diagrama de Classe
 
-<img src="img/Modelagem-Hackathon.png">
+<img src="img/Modelagem-Hackathon-V3.png">
 
 # Sobre o Projetos
 
