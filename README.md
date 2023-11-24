@@ -62,43 +62,43 @@ atualidade, ou seja, antes de seu novo software**, usando como base a situação
 
 As Regras de Negócio são orientações e restrições que ajudam a regular as operações de uma empresa. Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir COMO as operações devem ser realizadas e gerenciadas, POR QUEM, QUANDO, ONDE e POR QUÊ.
 
-  - Cadastro de Avaliadores:
-        **R.N. 01:** Somente usuários cadastrados como avaliadores podem acessar o sistema de avaliação.
+  - Cadastro de Avaliadores: </br>
+        **R.N. 01:** Somente usuários cadastrados como avaliadores podem acessar o sistema de avaliação. </br>
         **R.N. 02:** O cadastro de avaliadores deve incluir informações como nome, e-mail, especialidade e senha.
 
-  - Atribuição de Grupos:
-        **R.N. 03:** Cada avaliador pode ser designado para avaliar um ou mais grupos de hackathon.
+  - Atribuição de Grupos: </br>
+        **R.N. 03:** Cada avaliador pode ser designado para avaliar um ou mais grupos de hackathon. </br>
         **R.N. 04:** Deve permitir a atribuição do mesmo grupo a mais de um avaliador.
 
-  - Avaliação de Projetos:
-        **R.N. 05:** Cada avaliador deve fornecer notas individuais para os critérios de avaliação predefinidos.
-        **R.N. 06:** As notas atribuídas pelos avaliadores devem ser numéricas e estar dentro de uma faixa específica, por exemplo, de 1 a 10.
+  - Avaliação de Projetos: </br>
+        **R.N. 05:** Cada avaliador deve fornecer notas individuais para os critérios de avaliação predefinidos. </br>
+        **R.N. 06:** As notas atribuídas pelos avaliadores devem ser numéricas e estar dentro de uma faixa específica, por exemplo, de 1 a 10. </br>
         **R.N. 07:** Cada grupo deve receber avaliação de pelo menos três avaliadores.
 
-  - Classificação dos Grupos:
-        **R.N. 08:** A classificação dos grupos deve ser baseada na média ponderada das notas recebidas.
-        **R.N. 09:** Em caso de empate na média das notas, o grupo com maior pontuação no critério de originalidade deve ser classificado mais alto.
+  - Classificação dos Grupos: </br>
+        **R.N. 08:** A classificação dos grupos deve ser baseada na média ponderada das notas recebidas. </br>
+        **R.N. 09:** Em caso de empate na média das notas, o grupo com maior pontuação no critério de originalidade deve ser classificado mais alto. </br>
         **R.N. 10:** A classificação final deve ser exibida de forma clara e acessível para todos os participantes.
 
-  - Limite de Membros por Grupo:
-        **R.N. 11:** Cada grupo pode ter no máximo 5 membros.
+  - Limite de Membros por Grupo: </br>
+        **R.N. 11:** Cada grupo pode ter no máximo 5 membros. </br>
         **R.N. 12:** Não é permitido adicionar ou remover membros de um grupo após o início do hackathon.
 
-  - Visualização de Resultados:
-        **R.N. 13:** Os resultados finais, incluindo classificações e notas, devem ser disponibilizados de forma transparente após a conclusão do processo de avaliação.
+  - Visualização de Resultados: </br>
+        **R.N. 13:** Os resultados finais, incluindo classificações e notas, devem ser disponibilizados de forma transparente após a conclusão do processo de avaliação. </br>
         **R.N. 14:** Os participantes devem ter acesso apenas aos resultados gerais, sem visualização das notas individuais atribuídas pelos avaliadores.
 
-  - Prazos de Avaliação:
-        **R.N. 15:** Deve ser estabelecido um prazo claro para que os avaliadores concluam suas avaliações.
-        **R.N. 16:** Caso um avaliador não conclua suas avaliações dentro do prazo estipulado, medidas devem ser tomadas para garantir a pontualidade do processo.
+  - Prazos de Avaliação: </br>
+        **R.N. 15:** Deve ser estabelecido um prazo claro para que os avaliadores concluam suas avaliações. </br>
+        **R.N. 16:** Caso um avaliador não conclua suas avaliações dentro do prazo estipulado, medidas devem ser tomadas para garantir a pontualidade do processo. </br>
 
-  - Feedback aos Grupos:
+  - Feedback aos Grupos: </br>
         **R.N. 17:** Após a divulgação dos resultados, os grupos devem ter acesso a feedback construtivo sobre seus projetos, destacando pontos fortes e áreas de melhoria.
 
-  - Backup de Dados:
+  - Backup de Dados: </br>
         **R.N. 18:** Realizar backups regulares das notas e classificações atribuídas pelos avaliadores para evitar perda de dados críticos.
 
- - Reavaliação em Caso de Contestação:
+ - Reavaliação em Caso de Contestação: </br>
         **R.N. 19:** Caso um grupo conteste sua avaliação, deve ser estabelecido um procedimento para reavaliação por parte de um comitê independente.
 
 # Requisitos funcionais
