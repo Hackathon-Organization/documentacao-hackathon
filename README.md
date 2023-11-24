@@ -84,8 +84,6 @@ O software se concentrará na automação e otimização das etapas-chave dos ha
 
 # Regras de negócio
 
-As Regras de Negócio são orientações e restrições que ajudam a regular as operações de uma empresa. Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir COMO as operações devem ser realizadas e gerenciadas, POR QUEM, QUANDO, ONDE e POR QUÊ.
-
   - Cadastro de Avaliadores: </br>
         **R.N. 01:** Somente usuários cadastrados como avaliadores podem acessar o sistema de avaliação. </br>
         **R.N. 02:** O cadastro de avaliadores deve incluir informações como nome, e-mail, especialidade e senha.
@@ -127,55 +125,55 @@ As Regras de Negócio são orientações e restrições que ajudam a regular as 
 
 # Requisitos funcionais
 
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário.
+**RF001:** Cadastro de Participantes
 
-Os requisitos funcionais são compostos de duas partes: **função** e **comportamento**.
+Descrição: O sistema deve permitir que os participantes se cadastrem fornecendo informações como nome, e-mail, habilidades técnicas e preferências de equipe.</br>
+Dados Necessários: Nome, E-mail, Habilidades Técnicas, Preferências de Equipe.</br>
+Usuários: Participantes.
 
-A **função** é o que o sistema faz. Por exemplo: “calcular imposto sobre vendas”.
+**RF002:** Formação de Equipes
 
-O **comportamento** é como o sistema faz. Por exemplo: “O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”.
+Descrição: O sistema deve facilitar a formação de equipes, permitindo que os participantes se associem a equipes existentes ou criem novas equipes.</br>
+Dados Necessários: Equipes existentes, Número de participantes por equipe.</br>
+Usuários: Participantes.
 
-**Tipos de requisitos funcionais.**
+**RF003:** Submissão de Projetos
 
-Os requisitos funcionais podem ser classificados em:
+Descrição: Os participantes devem ser capazes de submeter seus projetos através do sistema, fornecendo uma descrição detalhada e materiais necessários.</br>
+Dados Necessários: Descrição do Projeto, Materiais do Projeto.</br>
+Usuários: Participantes.
 
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
+**RF004:** Avaliação de Projetos
 
-**Diretrizes para a elaboração de requisitos funcionais.**
+Descrição: O sistema deve permitir que um painel de jurados avalie os projetos com base em critérios predefinidos, atribuindo uma pontuação a cada projeto.</br>
+Dados Necessários: Critérios de Avaliação.</br>
+Usuários: Jurados.
 
-Cada requisito funcional precisa ser:
+**RF005:** Anúncio de Vencedores
 
-**Específico** sobre o que o sistema deve fazer.
-**Mensurável** para que você possa dizer se o sistema está fazendo isso
-**Alcançável** dentro do prazo que você definiu
-**Relevante** para seus objetivos de negócios
-**Limitado** no tempo para que você possa acompanhar o progresso
+Descrição: Após a avaliação, o sistema deve anunciar automaticamente as equipes vencedoras com base nas pontuações atribuídas pelos jurados.</br>
+Dados Necessários: Pontuações dos Projetos.</br>
+Usuários: Organizadores.
 
-Um requisito funcional deve ser estruturado da seguinte forma:
+**RF006:** Feedback dos Participantes
 
-- **Número do requisito funcional:** RF001; RF002
-- **Nome do requisito funcional:** descrição do requisito.
+Descrição: Os participantes devem poder fornecer feedback sobre o evento e as equipes, contribuindo para a melhoria contínua.</br>
+Dados Necessários: Comentários, Avaliação do Evento.</br>
+Usuários: Participantes.
 
-  - **Dados necessários:** dado 1, dado 2, dado 3.
+**RF007:** Relatórios Estatísticos
 
-  - **Usuários:** todos os níveis de usuário.
+Descrição: O sistema deve gerar relatórios estatísticos após cada hackathon, fornecendo insights sobre o desempenho das equipes, participação e feedback recebido.</br>
+Dados Necessários: Dados de Participação, Pontuações dos Projetos.</br>
+Usuários: Organizadores, Analistas.
+
+**RF008:** Comunicação Automática
+
+Descrição: O sistema deve enviar automaticamente e-mails e notificações para os participantes, informando sobre datas importantes, atualizações e resultados.</br>
+Dados Necessários: Informações do Evento, Resultados.</br>
+Usuários: Participantes, Organizadores.
 
 # Requisitos não funcionais
-
-Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. Existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
-
-- Interface de Usuário
-- Segurança
--  Atuação
-- ManutençãoRequisitos não funcionais:
 
 - Segurança:
 
@@ -271,7 +269,7 @@ Este projeto segue os devidos padrões de Commit:
 
 - Alguns exemplos de padronização dos commits:
 
-  **Criando projeto ou Arquivo:**
+  **Criando projeto ou arquivo:**
 
 ```bash
     git commit -m "create(main): criação da main"
