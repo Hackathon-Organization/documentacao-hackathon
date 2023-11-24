@@ -225,22 +225,6 @@ Usuários: Participantes, Organizadores.
 
 **R.N.F. 17:** Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
 
-# Diagrama de Caso de Uso
-
-O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comportamento de um sistema a partir da perspectiva do usuário. Ele é usado para capturar os requisitos funcionais de um sistema.
-
-- Especificam a visão externa do sistema.
-- Descrevem como o sistema é percebido por seus usuários.
-- Descrevem as interações entre os usuários e o sistema.
-
-**Os casos de uso:**
-
-- Descrevem como os usuários interagem com o sistema (as funcionalidades do sistema)
-- Facilitam a organização dos requisitos de um sistema.
-- Dão uma visão externa do sistema
-  -O conjunto de casos de uso deve ser capaz de comunicar a funcionalidade e o comportamento do sistema para o cliente.
-- Descrevem o que o sistema faz, mas não especificam como isso deve ser feito.
-
 # Diagrama de Classe
 
 <img src="img/Modelagem-Hackathon-V3.png">
