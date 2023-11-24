@@ -1,18 +1,21 @@
 # Projeto Hackathon
 
-### (Nome do projeto)
+### (Tech-Titans-Hackathon)
 
-(descrição breve do projeto)
+(O projeto consiste no desenvolvimento e organização de sistemas Front-end e Back-end em uma maratona com cerca de 27 horas, com equipes disputando entre si a fim de prouzir o melhor projeto.
+A prosposta estabelecida para o projeto é um Sitema de Controle Hackathon, elaborado com o objetivo de cumprir as exigências propostas como: Aparência das telas, funcionalidade dos sistemas, resolução de problemas, organização do grupo e apresentação.)
 
 Equipe:
 
-- [Aluno1](github.com/aluno1)
-- [Aluno2](github.com/aluno2)
-- [Aluno3](github.com/aluno3)
+- [Davy Moreira Sebolt](https://github.com/Rascro)
+- [Gilherme Halter Nunes](https://github.com/GuilhermeHalter)
+- [Miguel Bochi Barros](https://github.com/MiguelBochi)
+- [Wedley Silva Schmoeller](https://github.com/WedleySilva)
+- [Juan Petersson Borges Padilha](https://github.com/alujuan)
 
 Links do projeto:
 
-- [Documentação (esse documento)](github.com/)
+- [Documentação (esse documento)](https://github.com/Hackathon-Organization/Base-ProjetoHackathon)
 - Backend: [Repositório](github.com/) e [Publicação](https://)
 - Frontend: [Repositório](github.com/) e [Publicação](https://)
 
