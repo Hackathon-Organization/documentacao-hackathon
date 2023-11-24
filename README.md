@@ -1,9 +1,9 @@
 # Projeto Hackathon
 
-### (Tech-Titans-Hackathon)
+### Tech-Titans-Hackathon
 
-(O projeto consiste no desenvolvimento e organização de sistemas Front-end e Back-end em uma maratona com cerca de 27 horas, com equipes disputando entre si a fim de prouzir o melhor projeto.
-A prosposta estabelecida para o projeto é um Sitema de Controle Hackathon, elaborado com o objetivo de cumprir as exigências propostas como: Aparência das telas, funcionalidade dos sistemas, resolução de problemas, organização do grupo e apresentação.)
+O projeto consiste no desenvolvimento e organização de sistemas Front-end e Back-end em uma maratona com cerca de 27 horas, com equipes disputando entre si a fim de prouzir o melhor projeto.
+A prosposta estabelecida para o projeto é um Sitema de Controle Hackathon, elaborado com o objetivo de cumprir as exigências propostas como: Aparência das telas, funcionalidade dos sistemas, resolução de problemas, organização do grupo e apresentação.
 
 Equipe:
 
