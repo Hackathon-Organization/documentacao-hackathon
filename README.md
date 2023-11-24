@@ -227,9 +227,9 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 
 O (nome do projeto) contém três projetos diferentes:
 
-1. `nome da pasta React`: Um projeto front-end em React Native.
-2. `nome da pasta Vue`: Um projeto front-end em Vue.js.
-3. `nome da pasta Django`: Um projeto back-end em Django REST framework (DRF) com PDM.
+1. `frontend-mobile-hackathon`: Um projeto front-end em React Native.
+2. `frontend-web-hackathon`: Um projeto front-end em Vue.js.
+3. `back-hackathon`: Um projeto back-end em Django REST framework (DRF) com PDM.
 
 # Padronização de Commits
 
