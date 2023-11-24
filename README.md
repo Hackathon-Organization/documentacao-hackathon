@@ -155,7 +155,7 @@ Os Requisitos Não Funcionais explicam as limitações e restrições do sistema
 
 - Segurança:
 
-**R.N.F. 01:** Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
+**R.N.F. 01:** Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte. </br>
 **R.N.F. 02:** Implementar autenticação e autorização robustas, com monitoramento constante.
 
 - Atuação:
@@ -176,30 +176,30 @@ Os Requisitos Não Funcionais explicam as limitações e restrições do sistema
 
 - Portabilidade:
 
-**R.N.F. 07:** Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
+**R.N.F. 07:** Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android). </br>
 **R.N.F. 08:** Interface responsiva para diferentes tamanhos de tela.
 
 - Usabilidade:
 
-**R.N.F. 09:** Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
+**R.N.F. 09:** Interface intuitiva, com feedback claro e mensagens de erro compreensíveis. </br>
 **R.N.F. 10:** Conduzir testes de usabilidade com usuários reais.
 
 - Compatibilidade:
 
-**R.N.F. 11:** Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
+**R.N.F. 11:** Compatibilidade com sistemas operacionais Windows, MacOS e Linux. </br>
 **R.N.F. 12:** Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
 
--Conformidade:
+- Conformidade:
 
 **R.N.F. 13:** Implementar Swagger para documentação eficiente da API.
 
--Integração:
+- Integração:
 
-**R.N.F. 14:** Utilizar Axios para requisições HTTP assíncronas no frontend web.
-**R.N.F. 15:** Integrar frontend mobile em React Native eficazmente com o backend Django.
-**R.N.F. 16:** Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
+**R.N.F. 14:** Utilizar Axios para requisições HTTP assíncronas no frontend web. </br> 
+**R.N.F. 15:** Integrar frontend mobile em React Native eficazmente com o backend Django. </br>
+**R.N.F. 16:** Assegurar integração correta com bancos de dados MySQL e PostgreSQL. </br>
 
--Hospedagem:
+- Hospedagem:
 
 **R.N.F. 17:** Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
 
