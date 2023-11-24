@@ -247,10 +247,10 @@ Este projeto segue os devidos padrões de Commit:
 
 - Alguns exemplos de padronização dos commits:
 
-  **Criando projeto:**
+  **Criando projeto ou Arquivo:**
 
 ```bash
-    git commit -m "create(main): criação do projeto"
+    git commit -m "create(main): criação da main"
 ```
 
   **Adicionando uma nova funcionalidade:**
