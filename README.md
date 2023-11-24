@@ -2,7 +2,7 @@
 
 ### Tech-Titans-Hackathon
 
-O projeto consiste no desenvolvimento e organização de sistemas Front-end e Back-end em uma maratona com cerca de 27 horas, com equipes disputando entre si a fim de prouzir o melhor projeto.
+O projeto consiste no desenvolvimento e organização de sistemas Front-end e Back-end.
 A prosposta estabelecida para o projeto é um Sitema de Controle Hackathon, elaborado com o objetivo de cumprir as exigências propostas como: Aparência das telas, funcionalidade dos sistemas, resolução de problemas, organização do grupo e apresentação.
 
 Equipe:
@@ -137,56 +137,55 @@ Os Requisitos Não Funcionais explicam as limitações e restrições do sistema
 -  Atuação
 - ManutençãoRequisitos não funcionais:
 
-Segurança:
+- Segurança:
 
-R.N.F. 1 Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
-R.N.F. 2 Implementar autenticação e autorização robustas, com monitoramento constante.
+**R.N.F. 1** Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
+**R.N.F. 2** Implementar autenticação e autorização robustas, com monitoramento constante.
 
-Atuação:
+- Atuação:
 
-R.N.F. 3 Implementar estratégias de cache para redução da carga no servidor.
+**R.N.F. 3** Implementar estratégias de cache para redução da carga no servidor.
 
-Escalabilidade:
+- Escalabilidade:
 
-R.N.F. 4 Capacidade de suportar aumento de 50% no número de usuários simultâneos.
+**R.N.F. 4** Capacidade de suportar aumento de 50% no número de usuários simultâneos.
 
-Disponibilidade:
+- Disponibilidade:
 
-R.N.F. 5 Implementar monitoramento proativo para rápida resolução de problemas.
+**R.N.F. 5** Implementar monitoramento proativo para rápida resolução de problemas.
 
-Manutenção:
+- Manutenção:
 
-R.N.F. 6 Manter documentação do código atualizada para futuras atualizações.
+**R.N.F. 6** Manter documentação do código atualizada para futuras atualizações.
 
-Portabilidade:
+- Portabilidade:
 
-R.N.F. 7 Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
-R.N.F. 8 Interface responsiva para diferentes tamanhos de tela.
+**R.N.F. 7** Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
+**R.N.F. 8** Interface responsiva para diferentes tamanhos de tela.
 
-Usabilidade:
+- Usabilidade:
 
-R.N.F. 9 Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
-R.N.F. 10 Conduzir testes de usabilidade com usuários reais.
+**R.N.F. 9** Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
+**R.N.F. 10** Conduzir testes de usabilidade com usuários reais.
 
-Compatibilidade:
+- Compatibilidade:
 
-R.N.F. 11 Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
-R.N.F. 12 Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
+**R.N.F. 11** Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
+**R.N.F. 12** Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
 
-Conformidade:
+-Conformidade:
 
-R.N.F. 13 Implementar Swagger para documentação eficiente da API.
+**R.N.F. 13** Implementar Swagger para documentação eficiente da API.
 
-Integração:
+-Integração:
 
-R.N.F. 14 Utilizar Axios para requisições HTTP assíncronas no frontend web.
-R.N.F. 15 Integrar frontend mobile em React Native eficazmente com o backend Django.
-R.N.F. 16 Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
+**R.N.F. 14** Utilizar Axios para requisições HTTP assíncronas no frontend web.
+**R.N.F. 15** Integrar frontend mobile em React Native eficazmente com o backend Django.
+**R.N.F. 16** Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
 
-Hospedagem:
+-Hospedagem:
 
-R.N.F. 17 Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
-
+**R.N.F. 17** Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
 
 # Diagrama de Caso de Uso
 
