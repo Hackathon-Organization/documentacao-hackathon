@@ -18,7 +18,8 @@ Links do projeto:
 
 - [Documentação (esse documento)](https://github.com/Hackathon-Organization/Base-ProjetoHackathon)
 - Backend: [Repositório](github.com/) e [Publicação](https://)
-- Frontend: [Repositório](github.com/) e [Publicação](https://)
+- Frontend-Mobile: [Repositório](https://github.com/Hackathon-Organization/frontend-mobile-hackathon) e [Publicação](https://)
+- Frontend-web: [Repositório](https://github.com/Hackathon-Organization/frontend-web-hackathon) e [Publicação](https://)
 
 # Desenvolvimento do Projeto
 
