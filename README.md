@@ -130,34 +130,54 @@ Um requisito funcional deve ser estruturado da seguinte forma:
 
 # Requisitos não funcionais
 
-Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. Esses requisitos **não têm nenhum impacto na funcionalidade do aplicativo**. Além disso, existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
+Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. Existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
 
 - Interface de Usuário
-- Confiabilidade
 - Segurança
 - Atuação
 - Manutenção
 
-Aqui estão alguns exemplos de requisitos não funcionais:
-
-- **Segurança**: O sistema deve ser protegido contra acesso não autorizado.
-- **Atuação**: O sistema deve ser capaz de lidar com o número necessário de usuários sem qualquer degradação no desempenho.
-- **Escalabilidade**: O sistema deve ser capaz de aumentar ou diminuir conforme necessário.
-- **Disponibilidade**: O sistema deve estar disponível quando necessário.
-- **Manutenção**: O sistema deve ser fácil de manter e atualizar.
-- **Portabilidade**: O sistema deve ser capaz de rodar em diferentes plataformas com alterações mínimas.
-- **Confiabilidade**: O sistema deve ser confiável e atender aos requisitos do usuário.
-- **Usabilidade**: O sistema deve ser fácil de usar e entender.
-- **Compatibilidade**: O sistema deve ser compatível com outros sistemas.
-- **Conformidade**: O sistema deve cumprir todas as leis e regulamentos aplicáveis.
-
-(A seguir, um exemplo de organização de requisitos não funcionais.)
-
 Requisitos não funcionais:
 
-R.N.F. 01 - Nome do requisito não funcional: descrição do requisito.
+    Segurança:
+        R.N.F. 1 Garantir a confidencialidade dos dados sensíveis por meio de criptografia forte.
+        R.N.F. 2 Implementar autenticação e autorização robustas, com monitoramento constante.
 
-R.N.F. 02 - Nome do requisito não funcional: descrição do requisito.
+    Atuação:
+        R.N.F. 3 Implementar estratégias de cache para redução da carga no servidor.
+
+    Escalabilidade:
+        R.N.F. 4 Capacidade de suportar aumento de 50% no número de usuários simultâneos.
+
+    Disponibilidade:
+        R.N.F. 5 Implementar monitoramento proativo para rápida resolução de problemas.
+
+    Manutenção:
+        R.N.F. 6 Manter documentação do código atualizada para futuras atualizações.
+
+    Portabilidade:
+        R.N.F. 7 Compatibilidade com os navegadores mais recentes (Chrome, Firefox, Safari) e dispositivos móveis (iOS, Android).
+        R.N.F. 8 Interface responsiva para diferentes tamanhos de tela.
+
+    Usabilidade:
+        R.N.F. 9 Interface intuitiva, com feedback claro e mensagens de erro compreensíveis.
+        R.N.F. 10 Conduzir testes de usabilidade com usuários reais.
+
+    Compatibilidade:
+        R.N.F. 11 Compatibilidade com sistemas operacionais Windows, MacOS e Linux.
+        R.N.F. 12 Garantir compatibilidade com versões mais recentes de navegadores e dispositivos.
+
+    Conformidade:
+        R.N.F. 13 Implementar Swagger para documentação eficiente da API.
+
+    Integração:
+        R.N.F. 14 Utilizar Axios para requisições HTTP assíncronas no frontend web.
+        R.N.F. 15 Integrar frontend mobile em React Native eficazmente com o backend Django.
+        R.N.F. 16 Assegurar integração correta com bancos de dados MySQL e PostgreSQL.
+
+    Hospedagem:
+        R.N.F. 17 Utilizar ferramenta Flow para hospedagem do backend Django, garantindo infraestrutura confiável e escalável.
+
 
 # Diagrama de Caso de Uso
 
@@ -177,7 +197,7 @@ O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comporta
 
 # Diagrama de Classe
 
-<img src="img/Modelagem-Hackathon.png">
+<img src="img/Protótipo-Modelagem-Hackathon.png">
 
 # Sobre o Projetos
 
