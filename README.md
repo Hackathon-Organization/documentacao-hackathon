@@ -23,40 +23,64 @@ Links do projeto:
 
 # Desenvolvimento do Projeto
 
-(Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros).
+O Hackathon Management System é um sistema desenvolvido para facilitar a organização, execução e avaliação de hackathons. Este sistema visa otimizar o processo desde a inscrição dos participantes até a premiação das equipes vencedoras. Ele oferece funcionalidades abrangentes, incluindo cadastro de participantes, formação de equipes, submissão de projetos, avaliação por jurados, anúncio de vencedores, feedback dos participantes e relatórios estatísticos.
+
+**Motivo da Escolha:**
+Considerando o contexto do projeto proposto, o Hackathon Management System é a escolha ideal, pois atende diretamente às necessidades da TechConnect Solutions, a empresa organizadora de hackathons. Ao optar por esse modelo, estamos alinhando o sistema de desenvolvimento às especificidades do evento, proporcionando uma experiência aprimorada para participantes, jurados e organizadores. O sistema será uma ferramenta eficaz para gerenciar inscrições, formação de equipes, submissões de projetos e todas as fases críticas de um hackathon. Além disso, a geração de relatórios estatísticos fornecerá insights valiosos para melhorar futuros eventos.
+
 
 # Situação Problema
 
-(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema).
+Atualmente, a TechConnect Solutions enfrenta desafios significativos em relação à eficiência operacional na organização de hackathons. O processo manual de gerenciamento desde a inscrição dos participantes até a premiação das equipes tem se mostrado suscetível a erros, atrasos e falta de integração. A seguir, detalhamos a situação-problema em diferentes aspectos:
 
-Descrever o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+**Inscrição e Formação de Equipes:**
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
+As inscrições dos participantes são realizadas manualmente, demandando tempo e esforço da equipe organizadora.
+A formação de equipes é descentralizada, o que pode resultar em equipes desbalanceadas em termos de habilidades.
 
-- Pesquise sobre empresas do ramo escolhido
-  para entender como funcionam;
-- Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
-- Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
+**Comunicação e Informações Descentralizadas:**
 
-**BASE DE COMO MONTAR O TEXTO**
+A comunicação com os participantes, informações sobre cronograma e desafios são transmitidas principalmente por e-mail, o que pode levar a mal-entendidos e informações desatualizadas.
+As informações relevantes para os participantes, jurados e organizadores estão dispersas em diferentes canais.
 
-- **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
-- **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
-- **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+**Avaliação Manual e Tempo de Anúncio de Vencedores:**
 
-# Descrição da Proposta
+A avaliação dos projetos é realizada manualmente por jurados, consumindo tempo considerável.
+O anúncio dos vencedores após a avaliação também é um processo que poderia ser mais eficiente.
 
-**Alguns pontos importantes a se destacar são:**
+**Feedback dos Participantes e Melhoria Contínua:**
 
-- **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
+A coleta de feedback dos participantes é realizada de maneira pouco estruturada, dificultando a identificação de áreas de melhoria.
+O processo de análise pós-evento carece de dados consolidados para embasar decisões estratégicas de melhoria contínua.
 
-- **Os níveis de usuário do sistema.** Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos diferentes, etc.
+# Descrição da proposta
 
-- **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
+O Hackathon Management System proposto visa transformar a organização e execução de hackathons pela TechConnect Solutions, solucionando os desafios identificados na situação-problema. Este software será uma ferramenta centralizada, intuitiva e eficiente, abordando as áreas críticas do processo de gestão de hackathons.
+O software se concentrará na automação e otimização das etapas-chave dos hackathons, desde a inscrição dos participantes até o anúncio dos vencedores. Ele proporcionará uma experiência integrada, cobrindo aspectos como cadastro de participantes, formação de equipes, submissão de projetos, avaliação por jurados, feedback dos participantes e geração de relatórios estatísticos.
 
-- **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
+**Níveis de Usuário:**
+
+- Participantes:
+
+    Cadastro e inscrição em hackathons.</br>
+    Acesso a informações sobre desafios, cronograma e regras.</br>
+    Submissão de projetos e acompanhamento do status.</br>
+    Feedback pós-evento.
+    
+- Jurados:
+
+    Avaliação de projetos com base em critérios predefinidos.</br>
+    Acesso a informações detalhadas sobre os projetos.</br>
+    Contribuição para o processo de seleção dos vencedores.
+
+- Organizadores:
+
+    Gerenciamento centralizado de inscrições e participantes.</br>
+    Facilitação na formação equipes, se necessário.</br>
+    Acompanhamento do progresso do evento em tempo real.</br>
+    Anúncio automático dos vencedores.</br>
+    Coleta estruturada de feedback dos participantes.
+
 
 # Regras de negócio
 
