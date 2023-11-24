@@ -10,8 +10,9 @@ Equipe:
 - [Davy Moreira Sebolt](https://github.com/Rascro)
 - [Gilherme Halter Nunes](https://github.com/GuilhermeHalter)
 - [Miguel Bochi Barros](https://github.com/MiguelBochi)
-- [Wedley Silva Schmoeller](https://github.com/WedleySilva)
 - [Juan Petersson Borges Padilha](https://github.com/alujuan)
+- [Wedley Silva Schmoeller](https://github.com/WedleySilva)
+
 
 Links do projeto:
 
