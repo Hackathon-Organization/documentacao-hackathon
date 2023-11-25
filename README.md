@@ -231,7 +231,7 @@ Usuários: Participantes, Organizadores.
 
 # Sobre o Projetos
 
-O (nome do projeto) contém três projetos diferentes:
+O projeto contém três repositórios diferentes:
 
 1. `frontend-mobile-hackathon`: Um projeto front-end em React Native.
 2. `frontend-web-hackathon`: Um projeto front-end em Vue.js.
@@ -305,7 +305,5 @@ Este projeto segue os devidos padrões de Commit:
 - Criar o projeto: "npx create-expo-app Hackathon ."
 - Instalar dependencias:"npm install"
 - Rodar o Projeto:"npm run start"
-
-**Comandos Django:**
 
 **Plugins:**
