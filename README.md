@@ -19,7 +19,7 @@ Links do projeto:
 - [Documentação (esse documento)](https://github.com/Hackathon-Organization/Base-ProjetoHackathon)
 - Backend: [Repositório](https://github.com/Hackathon-Organization/back-hackathon.git) e [Publicação](https://back-hackathon-dev-nhbx.4.us-1.fl0.io/api/)
 - Frontend-Mobile: [Repositório](https://github.com/Hackathon-Organization/frontend-mobile-hackathon) e [Publicação](https://)
-- Frontend-web: [Repositório](https://github.com/Hackathon-Organization/frontend-web-hackathon) e [Publicação](https://)
+- Frontend-web: [Repositório](https://github.com/Hackathon-Organization/frontend-web-hackathon) e [Publicação](https://frontend-web-techtitans.surge.sh/)
 
 # Desenvolvimento do Projeto
 
