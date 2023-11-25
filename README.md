@@ -227,7 +227,7 @@ Usuários: Participantes, Organizadores.
 
 # Diagrama de Classe
 
-<img src="img/Modelagem-Hackathon-V3.png">
+<img src="img/Modelagem-Hackathon-V5.png">
 
 # Sobre o Projetos
 
